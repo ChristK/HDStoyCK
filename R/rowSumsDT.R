@@ -11,6 +11,7 @@
 #'
 #' @examples
 #' library(data.table)
+#' library(HDStoyCK)
 #' x <- matrix(fdeaths, ncol = 12, byrow = TRUE)
 #' x <- data.table(x)
 #' rowSumsDT(x)
