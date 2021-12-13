@@ -31,10 +31,3 @@ rowSumsDT <- function(dtb, na.rm = FALSE) {
 
   }
 }
-
-
-# library(data.table)
-# dtb <- data.table(x = c(letters[1:4], NA), y = 1:5, z = 10:6, om = c(as.numeric(6:3), NA))
-# dtb <- data.table()
-# rowSumsDT(dtb, T)
-# rowSumsDT(dtb, "1")
